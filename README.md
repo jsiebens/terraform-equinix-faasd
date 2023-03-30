@@ -33,22 +33,22 @@ module "faasd" {
 
 | Name | Version |
 |------|---------|
-| terraform | >= 1.0.0 |
-| metal | >= 3.0.0 |
-| random | >= 3.1.0 |
+| terraform | >= 1.4.1 |
+| equinix  | >= 1.13.0 |
+| random | >= 3.4.3 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| metal | >= 3.0.0 |
-| random | >= 3.1.0 |
+| equinix  | >= 1.13.0 |
+| random | >= 3.4.3 |
 
 ## Resources
 
 | Name | Type |
 |------|------|
-| [metal_device.faasd](https://registry.terraform.io/providers/equinix/metal/latest/docs/resources/device) | resource |
+| [equinix_metal_device.faasd](https://registry.terraform.io/providers/equinix/equinix/latest/docs/resources/equinix_metal_device) | resource |
 | [random_password.faasd](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/password) | resource |
 
 ## Inputs
