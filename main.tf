@@ -18,7 +18,7 @@ resource "random_password" "faasd" {
   special = false
 }
 
-resource "metal_device" "faasd" {
+resource "equinix_metal_device" "faasd" {
   hostname            = var.name
   plan                = var.plan
   metro               = var.metro
